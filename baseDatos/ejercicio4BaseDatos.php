@@ -33,13 +33,7 @@
     $usuario='';
     $contrasena='';
     $edad=0;
-    
-
-
 ?>
-
-
-
 
 <!DOCTYPE html>
 <html>
