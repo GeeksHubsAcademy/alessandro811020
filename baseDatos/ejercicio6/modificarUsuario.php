@@ -35,16 +35,10 @@
             echo "</form>";
             echo "<a href='paginaEjercicio6.php'>Volver atras</a>";
 
-            if ($stmt->fetchAll()===0) {
-                echo "<h4>El identificador no se encuentra en la base de datos</h4>";
-                echo "<a href='paginaEjercicio6.php'>Volver atras</a>";
-            }else{
-            }
         }catch (Exception $e){
             echo "Fallida la búsqueda ".$e->getMessage();
         }
         
 }
-// ME QUEDA HACER EL PHP DE LA MODIFICACION EN LA CARPETA
 
 ?>
